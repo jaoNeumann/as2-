@@ -9,7 +9,7 @@ export function Header(){
       <h2>Front-end Developer</h2>
       <Image
         src="/me.jpeg"
-        alt="me"
+        alt="hi, this is me"
         width={325}
         height={300}
         priority

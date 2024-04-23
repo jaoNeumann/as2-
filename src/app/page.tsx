@@ -8,6 +8,9 @@ import "./components/styles/home.css";
 import './globals.css'
 
 import { useDarkMode } from './state/darkModeState';
+import { SectionTitle } from './components/SectionTitle/section-title';
+import { Exception } from 'sass';
+import { Experience } from './components/Experience/experience';
 
 export default function Home() {
 
@@ -21,26 +24,21 @@ export default function Home() {
     
     <main className="container">
       <Header/>
-      
+      <Experience/>
       <div className="infos">
-        <div className="experience">
-          <h3>Experience</h3>
-          <p>1 year working as technical support</p>
-          <div className="experience-time"></div>
-        </div>
         <h3>Languages</h3>
         <div className="languages-info">
           <span>EN-🇺🇸 - Advanced</span>
-          <span> PT-🇧🇷 - Native Speaker</span>
+          <span>PT-🇧🇷 - Native Speaker</span>
         </div>
         <h3>Education</h3>
         <div className="educational-info">
           <span>🎓</span>
           <span>Information Systems Bachelors Degree - Universidade Positivo</span>
         </div>
-        <div className="buttons">
-          <div className="social"></div>
-        </div>
+      </div>
+      <div className="buttons">
+        <div className="social"></div>
         <button>Contact me!</button>
       </div>
       {/* <Toggle /> */}
