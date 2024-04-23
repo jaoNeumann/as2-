@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    gap: 24px;
+    max-width: 500px;
+    max-height: 400px;
     grid-area: experience;
 
     p{
