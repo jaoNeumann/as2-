@@ -41,6 +41,11 @@
         }
     }
 }
+.container-minor{
+    align-items: center;
+    justify-items: start;
+    justify-content: space-between;
+}
 
 @media (min-width: 1028px){
     .container{
