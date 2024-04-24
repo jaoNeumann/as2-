@@ -16,7 +16,7 @@ export function SocialBtns(){
             <a href="https://github.com/jaoNeumann">
                 <GitHubIcon/>
             </a>
-            <a href="twitter.com/">
+            <a href="https://twitter.com/">
                 <TwitterIcon/>
             </a>
         </div> 
